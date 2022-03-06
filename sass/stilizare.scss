@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+@import 'top-albums';
+@import 'lyrics';
+@import 'singers';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+     line-height: 70px;
+     background: rgba(0,0,0,0.5);
+     padding: 0 80px;
+     box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+
+     .container {
+            display: flex;
+            text-decoration: none;
+            justify-content:  space-between;
+            align-items: center;
+        h3 {
+            font-size: 1.7em;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-style: italic;
+            color: #fff; 
+           }
+        .nav-items {
+            display: flex;
+            text-decoration: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 20%;
+           }
+        .nav-items li {
+            list-style: none;
+           }
+        .nav-items li a {
+            text-decoration: none;
+            font-size:  1.1em;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+           }
+        .nav-items li a:hover {
+            color: #1abc9c;
+        }
+                }
+
+                //effects navbar
+
+                .link {
+                    position: relative;
+                    padding-bottom: 8px;
+                    cursor: pointer;
+                }
+                .link::after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: "";
+                    width:0%;
+                    height: 3px;
+                    background-color: blueviolet;
+                    transition: width 0.4s ease-out;
+                }
+                .link:hover.link::after {
+                    width: 100%;
+                }
+}
+
+.overlay_homepage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+}
+
+
+

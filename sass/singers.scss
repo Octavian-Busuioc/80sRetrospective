@@ -1,0 +1,80 @@
+.wallpaper_singers {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 140vh;
+    width: 100%;
+    background-image: url(../images/singers.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.overlay_singers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 140vh;
+    width: 100%;
+    object-fit: cover;
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+}
+
+.container-singers {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+ }
+
+.artist {
+    list-style: none;
+    background-color: #d7e7b8;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: left;
+    grid-template-areas: 
+    'name image'
+    'genre image';
+}
+
+.artist > img {
+    grid-area: image;
+    width: 100px;
+    height: 100px;
+}
+
+#artistsList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.unicode {
+    color: yellow;
+}
+
+h1 {
+    color: rgb(243, 217, 217);
+    margin-bottom: 30px;
+}
+
+#searchWrapper {
+    margin-bottom: 15px;
+}
+
+#searchWrapper > input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+

@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "REO Speedwagon",
+        "genre" : "hard rock",
+        "image" : "/images/json-pics-array/REO-Speedwagon.jpg"
+    },
+    {
+        "name" : "Culture Club",
+        "genre" : "new wave",
+        "image" : "/images/json-pics-array/Culture-club.jpg"
+    },
+    {
+        "name" : "a-ha",
+        "genre" : "pop",
+        "image" : "/images/json-pics-array/a-ha.jpg"
+    },
+    {
+        "name" : "Madonna",
+        "genre": "disco",
+        "image" : "/images/json-pics-array/Madonna.jpg"
+    },
+    {
+        "name" : "Duran Duran",
+        "genre" : "synth-pop",
+        "image" : "/images/json-pics-array/Duran-Duran.jpg"
+    },
+    {
+        "name" : "Depeche Mode",
+        "genre" : "industrial",
+        "image" : "/images/json-pics-array/Depeche-Mode.jpg"
+    },
+    {
+        "name" : "Hall & Oates",
+        "genre": "dance-rock",
+        "image" : "/images/json-pics-array/HallandOates.jpg"
+    },
+    {
+        "name" : "Def Leppard",
+        "genre" : "glam metal",
+        "image" : "/images/json-pics-array/Def-Leppard.jpg"
+    },
+    {
+        "name" : "The Smiths",
+        "genre" : "indie rock",
+        "image" : "/images/json-pics-array/TheSmiths.jpg"
+    },
+    {
+        "name" : "George Michael",
+        "genre" : "post-disco",
+        "image" : "/images/json-pics-array/George-Michael.jpg"
+    }
+]
